@@ -35,4 +35,22 @@ public class EmployeeTests {
 
         assertEquals("Salary should remain the same when raise percentage is negative.",100, employee.getSalary(),0.0);
     }
+
+    @Test
+    public void employeeBalance() {
+        // create the customer object
+        Employee john = new Employee("John", "Soandso");
+
+        // create new map to pass to the customer for their getBalance method
+        HashMap<String, Double> test = new HashMap<>();
+
+        // populate test map
+        test.put("Walking", 34.00);
+        test.put("Sitting", 100.00);
+        test.put("Grooming", 10.00);
+
+        // compare the customers getBalanceDue method with expected
+//        assertEquals(john.getBalanceDue(test), 127.00);
+    }
 }
+

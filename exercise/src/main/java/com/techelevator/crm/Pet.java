@@ -8,7 +8,7 @@ public class Pet {
     private String name, species;
     private List<String> vaccinations = new ArrayList<>();
 
-    // constructor
+    // constructor and so forth
     public Pet(String name, String species) {
         this.name = name;
         this.species = species;

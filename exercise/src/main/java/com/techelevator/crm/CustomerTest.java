@@ -20,7 +20,7 @@ public class CustomerTest {
         test.put("Sitting", 100.00);
         test.put("Grooming", 10.00);
 
-        // compare the customers getBalanceDue method with expected
+        // compare the customers getBalanceDue method with expected and so forth
         Assert.assertEquals(john.getBalanceDue(test), 144.00);
     }
 

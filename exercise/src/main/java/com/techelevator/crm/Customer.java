@@ -24,7 +24,7 @@ public class Customer extends Person implements Billable {
         phoneNumber = "";
     }
 
-    // implemented methods
+    // implemented methods and so forth
     @Override
     public double getBalanceDue(Map<String, Double> servicesRendered) {
         double total = 0;

@@ -24,8 +24,6 @@ public class PetTests {
         // sets spots vaccination list = vax
         spot.setVaccinations(vax);
 
-        //jfdalfhjkdlahfjkdal
-
 
         // Use assert compare the lists to the expected value
         Assert.assertEquals(spot.getVaccinations(), "Rabies, B, V");
